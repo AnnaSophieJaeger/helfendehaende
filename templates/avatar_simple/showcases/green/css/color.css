@@ -1,0 +1,81 @@
+/*
+ * Logo
+ */
+body {
+	border-top: 3px solid #29b02c;
+}
+#avatar-template-logo {
+	background: url('../images/logo.png') no-repeat;
+	min-height: 40px;
+	width: 100%;
+}
+body a,
+body a:link,
+body a:visited,
+body a:hover,
+body .avatar-main-menu li:hover > span,
+body .avatar-main-menu li:hover > a,
+body .avatar-main-menu li.active > a,
+body .avatar-main-menu li.active > span,
+body .avatar-main-menu li.current > a,
+body .avatar-main-menu li.current > span,
+.avatar-tree-menu li:hover > a,
+.avatar-tree-menu li:hover > span,
+body .avatar-tree-menu li.active > a,
+body .avatar-tree-menu li.active > span,
+body .avatar-tree-menu li.current > a,
+body .avatar-tree-menu li.current > span
+body *[class*="avatar-slide-menu"] li.active > a,
+body *[class*="avatar-slide-menu"] li.active > span,
+body *[class*="avatar-slide-menu"] li.current > a,
+body *[class*="avatar-slide-menu"] li.current > span{
+	color: #29b02c;
+}
+.avatar-tree-menu li a,
+.avatar-main-menu > li a,
+body *[class*="avatar-slide-menu"] li > a {
+	color: #a2a2a2;
+}
+.avatar-main-menu > li.active {
+	background-image: url("../images/icons/arrow.png");
+}
+.avatar-main-menu ul li.parent {
+	background-image: url("../images/icons/white-arrow.png");
+	position: relative;
+}
+table thead,
+body .avatar-main-menu ul li:hover ,
+body *[class*="avatar-slide-menu"] li:hover {
+	background-color: #29b02c;
+}
+body .avatar-main-menu ul li:hover > a,
+body .avatar-main-menu ul li:hover > span,
+body *[class*="avatar-slide-menu"] li:hover > a,
+body *[class*="avatar-slide-menu"] li:hover > span {
+	color: #fff;
+}
+@media (max-width: 1024px)
+{
+	/*
+	 * Main Menu 
+	 */
+	body.avatar-responsive .avatar-main-menu {
+		background: #29b02c;
+		margin: 10px 0;
+	}
+	body.avatar-responsive .avatar-main-menu li > a,
+	body.avatar-responsive .avatar-main-menu li > span {
+		color: #fff;
+	}
+	body.avatar-responsive .avatar-main-menu ul li.active > a,
+	body.avatar-responsive .avatar-main-menu ul li.current > span {
+		color: #29b02c;
+	}
+	body.avatar-responsive .avatar-main-menu ul li.active:hover > a,
+	body.avatar-responsive .avatar-main-menu ul li.current:hover > span {
+		color: #fff;
+	}
+	body.avatar-responsive .avatar-main-menu ul {
+		padding: 8px 0 8px 8px;
+	}
+}
