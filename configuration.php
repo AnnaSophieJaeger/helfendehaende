@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Diese Website ist zurzeit im Wartungsmodus.<br />Bitte später wiederkommen.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Helfende Hände';
+	public $sitename = 'Friends4Nepal';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
